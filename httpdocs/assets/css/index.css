@@ -137,7 +137,7 @@ a {
     display: none;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .only-sp {
     display: block;
   }
@@ -721,7 +721,7 @@ footer .copyright {
   #service .service {
     max-width: 600px;
     grid-template-columns: 1fr 1fr;
-    gap: 2% 0;
+    gap: 2%;
     margin-bottom: calc(2% + 20px);
   }
   #service .service li {
@@ -797,7 +797,7 @@ footer .copyright {
     margin: 54px 0 44px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-logo {
     display: none;
   }
@@ -806,12 +806,15 @@ footer .copyright {
   }
   #top .text {
     font-size: 14px;
+    margin-top: 20px;
+    white-space: nowrap;
   }
   #top .hero-visual-bg {
     width: 100vw;
   }
   #top .hero-visual-img {
     width: 53vw;
+    margin: auto;
   }
   .background-1 {
     background: url("../img/bg-01.svg") left -180px top 406px/auto 286px no-repeat, url("../img/bg-02.svg") right -80px top 125px/auto 195px no-repeat, url("../img/bg-03.svg") left -100px top 937px/auto 92px no-repeat, url("../img/bg-04.svg") right -70px top 772px/auto 92px no-repeat;
@@ -824,6 +827,7 @@ footer .copyright {
     font-size: 30px;
     line-height: 1.67;
     letter-spacing: 3px;
+    white-space: nowrap;
   }
   #about .text {
     font-size: 14px;
@@ -851,7 +855,7 @@ footer .copyright {
     font-size: 20px;
   }
   #topics {
-    padding: 34px 30px 54px;
+    padding: 34px 5vw 54px;
   }
   #topics .title {
     font-size: 40px;
@@ -959,5 +963,8 @@ footer .copyright {
     top: -18px;
     height: 36px;
     background-size: 38px 100%;
+  }
+  footer .footer-nav > a {
+    font-size: 13px;
   }
 }

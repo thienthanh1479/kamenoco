@@ -636,7 +636,7 @@ footer {
     .service {
       max-width: 600px;
       grid-template-columns: 1fr 1fr;
-      gap: 2% 0;
+      gap: 2%;
       margin-bottom: calc(2% + 20px);
 
       li {
@@ -729,7 +729,7 @@ footer {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header {
     &-logo {
       display: none;
@@ -740,12 +740,15 @@ footer {
     
     .text {
       font-size: 14px;
+      margin-top: 20px;
+      white-space: nowrap;
     }
     .hero-visual-bg {
       width: 100vw;
     }
     .hero-visual-img {
       width: 53vw;
+      margin: auto;
     }
   }
   .background-1 {
@@ -762,6 +765,7 @@ footer {
       font-size: 30px;
       line-height: 1.67;
       letter-spacing: 3px;
+      white-space: nowrap;
     }
     .text {
       font-size: 14px;
@@ -791,7 +795,7 @@ footer {
     font-size: 20px;
   }
   #topics {
-    padding: 34px 30px 54px;
+    padding: 34px 5vw 54px;
 
     .title {
       font-size: 40px;
@@ -907,6 +911,13 @@ footer {
       top: -18px;
       height: 36px;
       background-size: 38px 100%;
+    }
+  }
+  footer {
+    .footer-nav {
+      & > a {
+        font-size: 13px;
+      }
     }
   }
 }
