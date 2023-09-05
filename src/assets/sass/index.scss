@@ -227,6 +227,7 @@ body {
 }
 .eng {
   @include providence;
+  font-weight: inherit;
 }
 .red {
   color: $red;
@@ -590,6 +591,7 @@ footer {
           font-size: 20px;
           font-weight: bold;
           letter-spacing: 2px;
+          display: block;
         }
 
         &:last-child {
@@ -917,6 +919,7 @@ footer {
     .footer-nav {
       & > a {
         font-size: 13px;
+        display: block;
       }
     }
   }

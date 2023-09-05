@@ -344,6 +344,7 @@ body {
 
 .eng {
   font-family: providence-sans-regular, sans-serif;
+  font-weight: inherit;
 }
 
 .red {
@@ -686,6 +687,7 @@ footer .copyright {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+    display: block;
   }
   .header-nav a:last-child {
     align-self: center;
@@ -966,5 +968,6 @@ footer .copyright {
   }
   footer .footer-nav > a {
     font-size: 13px;
+    display: block;
   }
 }
