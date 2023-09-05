@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+	Default
+------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body, table,
+input, textarea, select, option,button,
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Yu Gothic", YuGothic, sans-serif;
+	line-height: 1.1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+table,
+input, textarea, select, option {
+	line-height: 1.1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+img {
+	height: auto;
+	vertical-align: top;
+}
+
+a {
+	text-decoration: none;
+	color: $text;
+}

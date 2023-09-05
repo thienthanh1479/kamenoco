@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+	Text Format
+------------------------------------------------------------*/
+/* text position */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+.vTop { vertical-align: top !important;}
+.vMiddle { vertical-align: middle !important;}
+
+/* font weight */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	adjustment class ※ no use frequently
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	clearfix（float解除）
+------------------------------------------------------------*/
+.clearfix {
+	*zoom: 1;
+	&:after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+}
+
+/*------------------------------------------------------------
+	for tracking tag
+------------------------------------------------------------*/
+.trackTags {
+	display: none;
+}
+.only-sp {
+	display: none;
+}
+@media (max-width: 1000px) {
+	.only-pc {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.only-sp {
+		display: block;
+	}
+}

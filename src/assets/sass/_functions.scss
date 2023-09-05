@@ -1,0 +1,14 @@
+@charset "UTF-8";
+//
+//  using mixin and extend
+//
+
+// font family
+@font-face {
+  font-family: "providence-sans-regular";
+  src: url("../font/Providence-Sans-Regular.ttf") format("truetype");
+}
+
+@mixin providence {
+  font-family: providence-sans-regular, sans-serif;
+}

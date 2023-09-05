@@ -1,0 +1,28 @@
+@charset "UTF-8";
+// HTML5か否か
+$use-html5: true;
+
+// サポートブラウザの設定
+$support-ie6: false;
+$support-ie7: false;
+$support-ie8: false;
+$support-ie9: false;
+$support-mozilla: true;
+$support-webkit : true;
+$support-opera  : false;
+
+// ベンダープレフィックスの設定
+$set_prefix: -webkit-, -moz-, -ms-, '';
+
+//colors
+$main: rgb(255, 210, 0);
+$text: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+$white-2: rgb(221, 221, 221);
+$purple: rgb(199, 170, 245);
+$red: rgb(255, 12, 112);
+$purple-text: rgb(142, 92, 255);
+$green: rgb(0, 239, 184);
+$blue: rgb(5, 150, 253);
+$orange: rgb(255, 101, 74);
+$purple-bg: rgb(189, 147, 255);
